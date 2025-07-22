@@ -17,7 +17,7 @@ audio_data = []
 stream = None
 
 # Cohere API key (replace if needed)
-co = cohere.Client("KcV4dRo6A6GXCFWPGEew7D3YqlknWm5OGTMd0xHs")
+co = cohere.Client("YOUR_COHERE_API_KEY")
 
 def start_recording():
     """
