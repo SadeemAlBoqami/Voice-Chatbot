@@ -62,5 +62,5 @@ Use the following command to start the chatbot:
 Once turned on, you can start speaking through the interface. Your voice will be recognized and processed using Al, generate a response, and speak it using text-to-speech.  
 
 ## Screenshots
-![GUI Screenshot](main\voice chatbot screenshot.png)
+![GUI Screenshot](main/voice%20chatbot%20screenshot.png)
 
