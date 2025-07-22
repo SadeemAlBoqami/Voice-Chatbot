@@ -1,0 +1,6 @@
+sounddevice
+numpy
+scipy
+cohere
+edge-tts
+whisper
