@@ -44,10 +44,11 @@ Run the following command to create and activate a virtual environment:
 Or manually install:
 `pip install sounddevice numpy scipy gtts cohere edge-tts openai whisper`
 **5. Create your API key and Add it:**
-Replace your-api-key-here with your actual key from [Cohere Dashboard](https://dashboard.cohere.com/).
-Open the botCode.py file.
-Find this line:
+1- Log in to your [Cohere Dashboard](https://dashboard.cohere.com/) account and create a new API Key.
+2- Open the botCode.py file "e.g. using VS code".
+3- Find the following line:
 ```py co = cohere.Client("YOUR_COHERE_API_KEY")```
+4- Replace “YOUR_COHERE_API_KEY” with your real key from the Cohere website.
 **Note:** Don't share your key with anyone, and if you upload it to GitHub make sure you delete it or regenerate it from the Cohere Dashboard.
 **6. Run the chatbot:**
 Use the following command to start the chatbot:
