@@ -1,4 +1,4 @@
-# Arabic-Voice-Chatbot-with-GUI-using-Cohere-Edge-TTS
+# Voice-Chatbot
 
 ## Description:
 A voice-activated Arabic chatbot built with Python. It allows users to record their voice, transcribes it using OpenAI’s Whisper, generates smart replies using Cohere's LLM "large language model", and plays the reply back using Microsoft Edge TTS voices — all within a simple Tkinter GUI.
@@ -21,7 +21,7 @@ A voice-activated Arabic chatbot built with Python. It allows users to record th
 
 ## Installation:
 To run this project on your local device, follow these steps:
-**1- Download the project to your device, which can be done in two ways:**
+**1. Download the project to your device, which can be done in two ways:**
  i) Using git 
 1- Open cmd on your device
 2- Type the following command to download the project:`git clone https://github.com/SadeemAlBoqami/Voice-Chatbot.git`
@@ -29,8 +29,28 @@ To run this project on your local device, follow these steps:
 * Make sure Git is installed on your device, or download it from [here](https://git-scm.com/).
 
 ii) Download as a zip file:
-1- Download the [repository zip file](https://github.com/SadeemAlBoqami/Arabic-Voice-Chatbot-with-GUI-using-Cohere-Edge-TTS/archive/refs/heads/main.zip).
+1- Download the [repository zip file](https://github.com/SadeemAlBoqami/Voice-Chatbot/archive/refs/heads/main.zip).
 2- After downloading the file, unzip it anywhere on your device.
 3- Open the folder and you will find the project files ready.
-**2- **
+
+**2. Open terminal in the project directory:**
+﻿﻿On Windows, open the folder, type cd in the address bar, and press Enter.
+**3. Create a virtual environment:**
+Run the following command to create and activate a virtual environment:
+`python -m venv venv`
+`venv\Scripts\activate`
+**4. Install dependencies:**
+`pip install -r requirements.txt`
+Or manually install:
+`pip install sounddevice numpy scipy gtts cohere edge-tts openai whisper`
+**5. Create your API key and Add it:**
+Replace your-api-key-here with your actual key from [Cohere Dashboard](https://dashboard.cohere.com/).
+Open the botCode.py file.
+Find this line:
+```py co = cohere.Client("YOUR_COHERE_API_KEY")```
+**Note:** Don't share your key with anyone, and if you upload it to GitHub make sure you delete it or regenerate it from the Cohere Dashboard.
+**6. Run the chatbot:**
+Use the following command to start the chatbot:
+`python botCode.py`
+Once turned on, you can start speaking through the interface. Your voice will be recognized and processed using Al, generate a response, and speak it using text-to-speech.
 
