@@ -50,7 +50,9 @@ Or manually install: `pip install sounddevice numpy scipy gtts cohere edge-tts o
 1- Log in to your [Cohere Dashboard](https://dashboard.cohere.com/) account and create a new API Key.  
 2- Open the botCode.py file "e.g. using VS code".  
 3- Find the following line:  
-```py co = cohere.Client("YOUR_COHERE_API_KEY")```  
+```py 
+co = cohere.Client("YOUR_COHERE_API_KEY")
+```  
 4- Replace “YOUR_COHERE_API_KEY” with your real key from the Cohere website.  
 **Note:** Don't share your key with anyone, and if you upload it to GitHub make sure you delete it or regenerate it from the Cohere Dashboard.  
 
